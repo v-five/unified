@@ -1,0 +1,27 @@
+<div class="container">
+
+    <div class="col-sm-6 col-sm-offset-3 jumbotronv" style="background-color: #EEEEEE;">
+
+        <h3><span class="fa fa-sign-in"></span> Email Form</h3><br>
+
+        <!-- show any messages that come back with authentication -->
+
+        <form action="?action=preview" method="post">
+            <input type="text" class="form-control" name="firstName" placeholder="First Name"><br>
+            <input type="text" class="form-control" name="lastName" placeholder="Last Name"><br>
+            <input type="text" class="form-control" name="email" placeholder="Email Address"><br>
+            <input type="text" class="form-control" name="confEmail" placeholder="Confirm Email"><br>
+
+            <select class="form-control" style="width: 180px" name="country">
+                <option value="">Select Country</option>
+            </select>
+            <br>
+            <select class="form-control"  style="width: 180px" name="city">
+                <option value="">Select City</option>
+            </select>
+            <br>
+            <button type="submit" class="btn btn-warning pull-right">Submit</button>
+        </form>
+
+    </div>
+</div>
